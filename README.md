@@ -1,7 +1,16 @@
-# Word_Embeddings
+# Word Embedding Analogies 🧠📚
 
-This is a personal project from DeepLearning.AI's [Deep Learning Specialization](https://www.deeplearning.ai/courses/deep-learning-specialization/) Course#5: Sequence Models
+This project explores how word embeddings capture semantic relationships between words. Using pre-trained GloVe vectors, it demonstrates how vector arithmetic can solve analogy problems like:
 
-This repository uses word embeddings to understand how networks capture relationships between words using cosine similarity to solve analogy problems.
+> "**man** is to **king** as **woman** is to **queen**"
 
-Here's the link to the [glove.6B.50d.txt](https://drive.google.com/file/d/19szfmTiWCx9iVtEBjdu84o1z_HwxW4DF/view?usp=sharing) file within the data folder which could not be uploaded to GitHub.
+The project is inspired by DeepLearning.AI's Deep Learning Specialization (Course 5: Sequence Models).
+
+## 📌 Project Overview
+
+The notebook performs the following tasks:
+
+- Loads 50-dimensional GloVe word vectors
+- Computes cosine similarity between word pairs
+- Solves word analogies using vector arithmetic
+- Demonstrates how embeddings capture semantic meaning
